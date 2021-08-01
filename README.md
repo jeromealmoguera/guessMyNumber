@@ -1,2 +1,2 @@
 # guessMyNumber
-I just learned this from online courses. It's so cool, yeah.
+I just learned this from an online course. It's so cool, yeah.
