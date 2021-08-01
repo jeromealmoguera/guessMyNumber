@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151414;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  font-family: Ravenhook;
+  font-style: normal;
+  font-weight: 900;
+
+  color: #ffffff;
+
+  font-size: 4.5rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  font-family: Ravenhook;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 108px;
+
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  background-image: url("./src/brush-stroke.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+}
+
+.between {
+  font-family: Radiance;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  font-size: 1.4rem;
+  position: absolute;
+  top: 7rem;
+  right: 37rem;
+}
+
+.again {
+  font-family: Ravenhook;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 48px;
+
+  color: #ffffff;
+
+  position: absolute;
+  top: 0.3rem;
+  left: 1rem;
+
+  cursor: pointer;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  font-family: Ravenhook;
+  font-style: normal;
+  color: inherit;
+  font-size: 5rem;
+  padding: 1rem;
+  width: 10rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  font-family: Radiance;
+  font-style: normal;
+  font-weight: 900;
+
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 0.1rem;
+
+  font-family: Radiance;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 48px;
+}
+
+.label-score {
+  font-family: Radiance;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 48px;
+
+  margin-bottom: 2rem;
+}
+
+.label-highscore {
+  font-family: Radiance;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 48px;
+}
